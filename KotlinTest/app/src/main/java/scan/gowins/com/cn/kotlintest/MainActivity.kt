@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         content = findViewById(R.id.content) as TextView?
         content?.setText("欢迎使用Kotlin")
+        content?.setTextSize(28, 28.0F)
         var param: ViewGroup.LayoutParams? = content?.layoutParams
     }
 }
